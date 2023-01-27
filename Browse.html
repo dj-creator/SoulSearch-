@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/Logo.PNG">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"
+        defer></script>
+    <title>Document</title>
+    <style>
+        #pic {
+            border-radius: 50%;
+            border: white solid 2px;
+        }
+
+        .btn.btn-outline-success {
+            color: lightskyblue;
+            border: lightskyblue 1px;
+        }
+
+        .btn.btn-outline-success:hover {
+            background-color: lightskyblue;
+            color: black;
+        }
+        .container-fluid.mt-5.d-flex.justify-content-center{
+            gap: 200px;
+        }
+        .btn.btn-dark{
+            background-color: black;
+        }
+        .btn.btn-dark:hover{
+            background-color: lightskyblue;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Nav-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="./index.html"><img src="./Logo.PNG" height="40px" id="pic"></a>
+            <a class="navbar-brand m-2" href="./index.html">SoleSearch</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Browse.html">Browse</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More!
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./sell.html">Sell</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./Login.html">Login/Sign up</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--First Row-->
+    <div class="container-fluid mt-5 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+            <img src="./Dunk.PNG " class="card-img-top" alt="...">
+            <div class="card-body img-fluid">
+              <h5 class="card-title">Nike Panda Dunks</h5>
+              <p class="card-text"> 100$</p>
+              <a href="https://stockx.com/nike-dunk-low-retro-white-black-2021" class="btn btn-dark" >Purchase</a>
+            </div>
+          </div>
+          <div class="card img-fluid" style="width: 18rem;">
+            <img src="./Yeezy.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">adidas Yeezy Slide</h5>
+              <p class="card-text"> 150$</p>
+              <a href="https://stockx.com/adidas-yeezy-slide-bone-2022" class="btn btn-dark" >Purchase</a>
+            </div>
+          </div>
+          <div class="card img-fluid" style="width: 18rem;">
+            <img src="./J11.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jordan 11 Retro</h5>
+              <p class="card-text"> 200$</p>
+              <a href="https://stockx.com/air-jordan-11-retro-cherry-2022" class="btn btn-dark" >Purchase</a>
+            </div>
+          </div>
+      </div>
+      <!--Second Row-->
+      <div class="container-fluid mt-5 d-flex justify-content-center">
+        <div class="card img-fluid" style="width: 18rem;">
+            <img src="./fireRed.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jordan 3 Retro</h5>
+              <p class="card-text"> 250$</p>
+              <a href="https://stockx.com/air-jordan-3-retro-fire-red-2022" class="btn btn-dark" >Purchase</a>
+            </div>
+          </div>
+          <div class="card img-fluid " style="width: 18rem;">
+            <img src="./offwhite.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jordan 1 Retro High <br>
+                Off-White University Blue</h5>
+              <p class="card-text"> 950$</p>
+              <a href="https://stockx.com/air-jordan-1-retro-high-off-white-university-blue" class="btn btn-dark" >Purchase</a>
+            </div>
+          </div>
+          <div class="card img-fluid" style="width: 18rem;">
+            <img src="./ye.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">adidas Yeezy Foam RNR <br>
+                MX Carbon</h5>
+              <p class="card-text"> 300$</p>
+              <a href="\https://stockx.com/adidas-yeezy-foam-rnr-mx-carbon" class="btn btn-dark" >Purchase</a>
+            </div>
+          </div>
+      </div>
+      <!--Third Row-->
+      <div class="container-fluid mt-5 d-flex justify-content-center">
+        <div class="card img-fluid" style="width: 18rem;">
+            <img src="./kanye.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">adidas Yeezy Boost 350 V2</h5>
+              <p class="card-text"> 260$</p>
+              <a href="https://stockx.com/adidas-yeezy-boost-350-v2-blue-tint021" class="btn btn-dark" >Purchase</a>
+            </div>
+          </div>
+          <div class="card " style="width: 18rem;">
+            <img src="./Chicago.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jordan 1 Retro High OG</h5>
+              <p class="card-text"> 300$</p>
+              <a href="https://stockx.com/air-jordan-1-retro-high-og-chicago-reimagined-lost-and-found" class="btn btn-dark" >Purchase</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./Bape.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">A Bathing Ape Bape Sta <br>
+                JJJJound White Navy</h5>
+              <p class="card-text"> 300$</p>
+              <a href="https://stockx.com/a-bathing-ape-bape-sta-white-navy" class="btn btn-dark" >Purchase</a>
+            </div>
+          </div>
+      </div>
+      
+</body>
+
+</html>
